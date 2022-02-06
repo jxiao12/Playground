@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      .box {
+        color: colors;
+        width: 100px;
+        height: 100px;
+        border: 2px solid red;
+        background-color: blue;
+        display: inline-block;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Welcome!</h1>
+    {% for x in range(0, count): %}
+      <div class="box">  </div>
+    {% endfor %}
+  </body>
+</html>
